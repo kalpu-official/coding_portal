@@ -1,0 +1,176 @@
+body{
+	background-image: url('../images/spell_of_cipher.png');
+	background-size: 100% 100vh;
+	background-repeat: no-repeat;
+}
+
+
+.box{
+	margin-left: 60%;
+	margin-top:12%;
+	color: white;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	/*border:2px solid white;*/
+
+}
+
+
+.title_buttons{
+	/*margin-top:20px;*/
+	/*padding-bottom: 20px;*/
+	/*border:2px solid white;*/
+	font-size:30px;
+	/*height: 60px;*/
+
+}
+
+#li_button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border:2px solid white;
+	border-top-left-radius: 25px;
+	height: 60px;
+	border-top-right-radius: 25px;
+	border-bottom: 0px solid white;
+
+}
+
+#su_button{
+	padding-top: 10px;
+	
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom:2px solid white; 
+}
+
+.form{
+	border:2px solid white;
+	padding-top:20px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top:0px;
+}
+#form1{
+	display: block;
+}
+
+#form2{
+	display: none;
+}
+  
+  ::placeholder { 
+  color:white ;
+ 
+}
+
+
+input{
+	width: 95%;
+	height: 50px;
+	color: white;
+	background-color: transparent;
+	border-radius: 25px;
+	margin:10px 0 10px 0;
+ 	padding-left: 20px;
+
+}
+
+
+input:focus{
+    outline: none;
+}
+
+.sub_button{
+	margin: 15px 10px 20px 10px;
+    border-radius: 25px;
+    width: 95%;
+   	height: 50px;
+    background-color:#FAE5D3;
+    border-color: #FAE5D3;
+    color: #262262;
+    font-size:20px;
+
+}
+
+
+.form_buttons{
+         background-color: transparent;
+         margin:10px 10px 10px 10px;
+         border-radius: 25px;
+         height: 40px;
+         font-size: 15px;
+         width: 40%;
+         color: #FAE5D3;
+
+}
+
+.form_buttons.active{
+         background: linear-gradient(to right, #92278f 0%, #262262 100%);
+        
+}
+
+.image{
+    display: none;
+    
+
+  }
+
+
+
+@media screen and (max-width: 800px) {
+  body{
+        background-image: none;
+        background: linear-gradient(to right, #92278f 0%, #262262 100%);
+        
+  }
+  .box{
+    margin-top: 40%;
+    border-radius: 25px;
+    margin-left:2%;
+    background-color: transparent; ;
+    border:3px solid white;
+    padding:50px 10px 0px 10px;
+    width: 96%;
+    visibility: visible;
+
+  }
+  .image{
+    display: block;
+    /*border-radius: 25px: */
+    width:100%;
+    height: 30vh;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  body{
+        background-image: none;
+        background: linear-gradient(to right, #92278f 0%, #262262 100%);
+        
+  }
+  .box{
+    margin-top: 30%;
+    border-radius: 25px;
+    margin-left:2%;
+    background-color: transparent; ;
+    border:3px solid white;
+    padding:50px 10px 0px 10px;
+    width: 96%;
+    visibility: visible;
+
+  }
+  .image{
+    display: block;
+    /*border-radius: 25px: */
+    width:100%;
+    height: 30vh;
+
+  }
+
+}
+
